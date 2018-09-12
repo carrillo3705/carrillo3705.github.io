@@ -1,0 +1,60 @@
+
+body{
+    background-image: url(img/mountain.jpg);
+    background-positiion: center;
+    background-repeat: no-repeat;
+
+}
+p{
+    margin-left: 30em;
+    margin-right: 36em;
+}
+
+p{
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 20;
+    margin-right: 20;
+    font-family: "Calibri Light";
+}
+
+.topnav {
+
+
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 35px 40px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Calibri;
+    background-size: cover;
+}
+
+
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: black;
+    color: white;
+
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: white;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 1px 1px forestgreen;
+    font-family: Cambria;
+    font-size: 2.9em; /* 55px/16=2.5em */
+}
