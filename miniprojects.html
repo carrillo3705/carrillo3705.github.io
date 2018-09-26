@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Projects</title>
+    <script src="miniprojects.js"></script>
+    <link rel="stylesheet" href="miniprojects.css">
+</head>
+<body>
+<div class="topnav">
+    <a href="index.html">Omar Carrillo</a>
+    <a href="soccer.html">Soccer</a>
+    <a href="classes.html">Classes</a>
+    <a href="interests.html">Games</a>
+    <a class= active href="miniprojects.html">Mini Projects</a>
+    <style>
+        p.lined {border-style: solid;}
+    </style>
+</div>
+<br><br><br><br><br><br><br>
+<form name="project3">
+    <h4>Grade Assignment</h4>
+    Type in a number to receive a grade
+    <input name="input1" type="text">
+    <br><br>
+    Result: <input name="result" type="text" readonly="true" style="border-style: none">
+    <br><br>
+    <button type="button" onclick="document.project3.result.value=assignGrade()">Assign Grade</button>
+</form>
+
+
+
+
+</body>
+</html>
