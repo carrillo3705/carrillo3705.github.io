@@ -1,11 +1,18 @@
 
 body {
-    background-image: url("img/allianz-arena.jpg");
+    background-image: url("https://i.pinimg.com/originals/c7/59/57/c7595774518a771369ca5a189e44c44a.jpg");
     background-size: cover;
     background-attatchment: fixed;
+    background-repeat no-repeat;
+    height: 100%;
 }
 
+img {
 
+    width: 350px;
+    height: 200px;
+    position: center;
+}
 
 .topnav {
     overflow: hidden;
@@ -27,13 +34,28 @@ body {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: white;
-    color: black
+    background-color: black;
+    color: white
+}
+
+
+h1 {
+    color: whitesmoke;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+h2 {
+    color: lightskyblue;
+}
+
+p {
+    color: darkgrey;
 }

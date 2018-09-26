@@ -7,7 +7,7 @@ body{
 }
 p{
     margin-left: 30em;
-    margin-right: 36em;
+    margin-right: 36em;ssss
 }
 
 p{
@@ -16,12 +16,10 @@ p{
     margin-bottom: 1em;
     margin-left: 20;
     margin-right: 20;
-    font-family: "Calibri Light";
+    font-family: "Calibri Light";ß
 }
 
 .topnav {
-
-
     overflow: hidden;
 }
 
@@ -41,17 +39,16 @@ p{
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white
 }
-
 h1 {
     text-align: center;
     text-shadow: 1px 1px forestgreen;
