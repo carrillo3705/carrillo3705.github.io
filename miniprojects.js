@@ -28,3 +28,36 @@ function assignGrade()
         return "invalid input";
     }
 }
+
+
+function temperatureBug()
+
+{var temp = Number (document.project4.input1.value);
+
+if (temp <=25)
+{
+    return "Winter"
+
+}
+
+else if (temp < 50 && temp > 26) { return "Fall"
+
+}
+
+else if (temp < 75 && temp > 51) {return "Spring"}
+
+
+else if(temp >= 76){
+    return "Summer"
+}
+
+
+}
+
+function showSeason() { var result = (document.project4.result.value);
+
+if (result = "Winter")
+
+    
+
+}
