@@ -56,8 +56,37 @@ else if(temp >= 76){
 
 function showSeason() { var result = (document.project4.result.value);
 
-if (result = "Winter")
+if (result = "Winter"){
+    return document.project4.getElementById(winter)
+}
 
     
 
+}
+
+function dropDown() {
+
+    var myList = document.getElementById(myList);
+    var activity = myList.options[myList.selectedIndex].text;
+    return activity;
+}
+
+function returnWork()
+{
+  var activity = document.getElementById('workList').value;
+  //return activity
+    if (activity == "walking")
+    {
+        return "power walk, or uh walk the dog"
+    }
+
+    else if (activity == "running")
+    {
+        return "vry tired.";
+    }
+
+    else if ( activity == "programming")
+    {
+        return "best exercise ever.";
+    }
 }
