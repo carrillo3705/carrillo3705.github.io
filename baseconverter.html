@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Base Converter</title>
+    <script src="baseConverter.js"></script>
+    <link rel="stylesheet" href="baseconverter.css">
+</head>
+<body>
+
+<div class="topnav">
+    <a href="index.html">Omar Carrillo</a>
+    <a href="soccer.html">Soccer</a>
+    <a href="classes.html">Classes</a>
+    <a href="interests.html">Games</a>
+    <a href="miniprojects.html">Mini Projects</a>
+    <a clasee=active href="baseconverter.html">Number Base Conversion</a>
+    <style>
+        p.lined {border-style: solid;}
+    </style>
+</div>
+
+
+
+
+
+<form name="smallToTen">
+    Binary -> Base 10
+    <input name="input1" type="text" >
+    <button type="button" onclick="document.smallToTen.result.value=smallToTen()">toBaseTen</button>
+   Result: <input name="result" type="text" readonly="true" style="border-style: none">
+
+</form>
+<br><br>
+<form name="tenToSmall">
+    Base 10 -> Binary
+    <input name="input1" type="text">
+    <button type="button" onclick="document.tenToSmall.result.value=tenToSmall()">toBinary</button>
+    Result: <input name="result" type="text" readonly="true" style="border-style: none">
+</form>
+
+
+
+
+
+</body>
+</html>
