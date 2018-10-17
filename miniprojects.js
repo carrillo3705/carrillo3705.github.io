@@ -30,7 +30,7 @@ function assignGrade()
 }
 
 
-function temperatureBug() //made with help from 
+function temperatureBug() //made with help from
 
 {var temp = Number (document.project4.input1.value);
 
