@@ -30,35 +30,34 @@ function assignGrade()
 }
 
 
-function temperatureBug()
+function temperatureBug() //made with help from 
 
 {var temp = Number (document.project4.input1.value);
 
 if (temp <=25)
 {
-    return "Winter"
+    return  document.getElementById("winter").style.display = "block";
+
 
 }
 
-else if (temp < 50 && temp > 26) { return "Fall"
+else if (temp < 50 && temp > 26) {
+
+    return document.getElementById("fall").style.display = "block";
 
 }
 
-else if (temp < 75 && temp > 51) {return "Spring"}
+else if (temp < 75 && temp > 51) {
+    return document.getElementById("spring").style.display = "block";
+}
 
 
 else if(temp >= 76){
-    return "Summer"
+    return document.getElementById("summer").style.display = "block";
 }
 
 
-}
 
-function showSeason() { var result = (document.project4.result.value);
-
-if (result = "Winter"){
-    return document.project4.getElementById(winter)
-}
 
     
 
@@ -75,18 +74,24 @@ function returnWork()
 {
   var activity = document.getElementById('workList').value;
   //return activity
+    var time = Number (document.project6.input1.value);
+
     if (activity == "walking")
     {
-        return "power walk, or uh walk the dog"
+        return  5 * time;
     }
 
     else if (activity == "running")
     {
-        return "vry tired.";
+        return 10 * time;
     }
 
-    else if ( activity == "programming")
+    else if ( activity == "lifting weights")
     {
-        return "best exercise ever.";
+        return 12 * time;
     }
+    else ( activity == "playing sports")
+    {
+        return 10 * time;
+}
 }
