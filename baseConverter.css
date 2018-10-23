@@ -1,0 +1,46 @@
+body {
+    background-image: url("https://media.giphy.com/media/Q9aBxHn9fTqKs/giphy.gif");
+}
+
+
+
+
+toBinary {
+    color:lawngreen;
+}
+
+
+toBaseTen {
+    color: lawngreen;
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: lawngreen;
+    text-align: center;
+    padding: 35px 40px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Calibri;
+    background-size: cover;
+}
+
+
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: white;
+    color: black;
+
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: black;
+    color: lawngreen;
+}
