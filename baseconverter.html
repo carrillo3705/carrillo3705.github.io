@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Base Converter</title>
-    <script src="baseConverter.js"></script>
+    <title>Convert Number Bases</title>
+    <script src="baseconverter.js.js"></script>
     <link rel="stylesheet" href="baseconverter.css">
 </head>
 <body>
@@ -14,7 +14,7 @@
     <a href="classes.html">Classes</a>
     <a href="interests.html">Games</a>
     <a href="miniprojects.html">Mini Projects</a>
-    <a clasee=active href="baseconverter.html">Number Base Conversion</a>
+    <a class= active href="baseconverter.html">Number Base Conversion</a>
     <style>
         p.lined {border-style: solid;}
     </style>
@@ -24,22 +24,22 @@
 
 
 
-<form name="smallToTen">
-    Binary -> Base 10
-    <input name="input1" type="text" >
-    <button type="button" onclick="document.smallToTen.result.value=smallToTen()">toBaseTen</button>
-   Result: <input name="result" type="text" readonly="true" style="border-style: none">
+<form name="toBinary">
+    <input size="40px" placeholder="Type a base 10 number here..." type="text" name="result">
+
+
+
+    <button type="button" onclick="document.toBinary.result.value=tenToSmall()">Convert Number to Binary</button>
 
 </form>
 <br><br>
-<form name="tenToSmall">
-    Base 10 -> Binary
-    <input name="input1" type="text">
-    <button type="button" onclick="document.tenToSmall.result.value=tenToSmall()">toBinary</button>
-    Result: <input name="result" type="text" readonly="true" style="border-style: none">
+<form name="toBaseTen">
+
+    <input size="40px" placeholder="Type a binary number here..." type="text" name="result">
+
+    <button type="button" onclick="document.toBaseTen.result.value=smallToTen()">Convert Number to Base 10</button>
+
 </form>
-
-
 
 
 
