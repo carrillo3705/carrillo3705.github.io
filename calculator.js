@@ -22,11 +22,11 @@ function calculate(expression) // ex. expression is math problem 2+5 or 9*5
    //'expression is a string of everything in your calculator window
    //Need to extract the first number from 'expression'
     var firstNum = Number(expression.substr(0,1));
-    alert(firstNum);
+   
     var operator = expression.substr(1,1);
-    alert(operator);
+
     var secondNum = Number(expression.substr(2,1));
-    alert(secondNum);
+
     if(operator === '+')
     {
         return addNums(firstNum, secondNum);
