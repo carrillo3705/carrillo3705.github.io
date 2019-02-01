@@ -33,7 +33,7 @@ body {
     background-image: url(https://www.tutors-on-call.com/wp-content/uploads/2018/01/test-taking2.jpg);
     background-size: cover;
     background-attatchment: fixed;
-    background-repeat no-repeat;
+    background-repeat: no-repeat;
     height: 100%;
 }
 
