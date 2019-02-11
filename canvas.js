@@ -14,10 +14,11 @@ function initialize()
 {
 
     drawBackground();
-    //draw a red rectangle to animate
+
     var ctx= document.getElementById("myCanvas").getContext("2d");
+
     ctx.drawImage(pic1,imgX,imgY,imgH,imgW);
-ctx.shadowBlur = 0;
+    ctx.shadowBlur = 0;
 
 }
 
@@ -133,8 +134,10 @@ function moveImageRight()
     var ctx= document.getElementById("myCanvas").getContext("2d");
 imgX = imgX + moveAmountX;
 imgY = imgY + moveAmountY;
+
     ctx.drawImage(pic1, imgX, imgY, imgH, imgW);
-ctx.shadowBlur= 0;
+
+
 }
 
 function drawRectangles() {
@@ -172,7 +175,7 @@ function drawCircles()
     var ctx= document.getElementById("myCanvas").getContext("2d");
     ctx.beginPath();
     ctx.shadowColor ="#fffe04";
-    ctx.shadowBlur = 65;
+    
     ctx.fillStyle = "#fffe03";
     ctx.arc(0,0,200,0,2*Math.PI);
     ctx.fill();
@@ -184,7 +187,7 @@ function drawCircles()
 
 
 var pic1 = new Image(); // new image sets 'pic 1' as an Image Object
-pic1.src = "img/surfer-png-6.png";
+pic1.src = "http://www.pngall.com/wp-content/uploads/2016/04/Surfing-PNG-Clipart.png";
 
 var pic2 = new Image();
 pic2.src ="http://worldartsme.com/images/beach-ball-clipart-1.jpg";
